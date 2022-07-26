@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Taha Ghadirian",
+    "classifications": [
+        "Telegram",
+        "Bot",
+        "Console",
+        "Automation"
+    ],
+    "identity": "DrTelegramBotTemplate.Console",
+    "name": "Telegram bot template",
+    "shortName": "TelegramBot",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "DrTelegramBotTemplate.Console",
+    "defaultName": "TelegramBot",
+    "symbols": {
+        "Framework": {
+            "type": "parameter",
+            "description": "What framework do you want to use?",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "netcoreapp3.1",
+                    "description": "Target netcoreapp3.1"
+                },
+                {
+                    "choice": "net6.0",
+                    "description": "Target net6"
+                },
+                {
+                    "choice": "net7.0",
+                    "description": "Target net7.0"
+                }
+            ],
+            "replaces": "net7.0",
+            "defaultValue": "net7.0"
+        },
+        "Token": {
+            "type": "parameter",
+            "isRequired": true,
+            "replaces": "TOKEN",
+            "displayName": "Bot Token",
+            "datatype": "text",
+            "description": "Bot token from botfather:"
+        }
+    }
+}

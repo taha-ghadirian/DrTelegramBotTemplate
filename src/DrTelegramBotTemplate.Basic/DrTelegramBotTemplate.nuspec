@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>DrTelegramBotTemplate</id>
+        <version>1.0.0</version>
+        <title>DrTelegramBotTemplate</title>
+        <description>
+            Ready to go Telegram Bot using Telegram.Bot with clean code folders
+        </description>
+        <projectUrl>https://github.com/taha-ghadirian/DrTelegramBotTemplate</projectUrl>
+        <license type="expression">MIT</license>
+        <authors>Taha Ghadirian</authors>
+        <owners>Taha Ghadirian</owners>
+        <language>en-US</language>
+        <tags>.NET Core Telegram Bot</tags>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <copyright>2022 Taha Ghadirian</copyright>
+        <summary>This template provides a ready to go template for Dotnet Telegram bots using Telegram.ot</summary>
+        <releaseNotes>Initial Release</releaseNotes>
+        <repository type="git" url="https://github.com/taha-ghadirian/DrTelegramBotTemplate" />
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+        <dependencies>
+          <dependency id="Telegram.Bot" version="18.0.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="./**" target="." exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
+    </files>
+</package>
