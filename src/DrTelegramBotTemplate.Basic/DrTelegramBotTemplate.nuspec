@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>DrTelegramBotTemplate</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <title>DrTelegramBotTemplate</title>
         <description>
             Ready to go Telegram Bot using Telegram.Bot with clean code folders
@@ -26,6 +26,7 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="./**" target="." exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
+        <!-- <file src="./DrTelegramBotTemplate.Basic/**" target="./DrTelegramBotTemplate.Basic" exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" /> -->
+        <file src="./**" target="./" exclude="**\bin\**\*;**\obj\**\*;**\*.csproj.user" />
     </files>
 </package>
